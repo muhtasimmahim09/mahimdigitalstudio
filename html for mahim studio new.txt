@@ -59,7 +59,19 @@
         <h2>About Me</h2>
         <p>I am Muhtasim Mahim, a digital marketer specializing in SEO, logo design, and social media management.</p>
     </section>
-
+<section class="blog">
+    <h2>My Blog</h2>
+    <article>
+        <h3>The Future of Digital Marketing</h3>
+        <p class="date">Published on: May 25, 2026</p>
+        <p>In this blog post, I explore how digital marketing trends are evolving in 2026. From AI-driven campaigns to personalized content, the future is bright for digital marketers.</p>
+    </article>
+    <article>
+        <h3>SEO Tips for Beginners</h3>
+        <p class="date">Published on: May 20, 2026</p>
+        <p>If you're just starting with SEO, this post is for you. Learn the basics of keyword research, on-page optimization, and how to track your progress.</p>
+    </article>
+</section>
     <section class="contact-info">
         <h2>Contact Me</h2>
         <a href="mailto:muhtasimmahi.m@gmail.com">muhtasimmahi.m@gmail.com</a>
