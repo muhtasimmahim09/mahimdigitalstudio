@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Muhtasim Mahim is a digital marketer specializing in social media marketing, Google Ads, and content creation.">
-    <meta name="keywords" content="Muhtasim Mahim, Digital Marketer, Social Media Marketing, Google Ads, Content Creation">
+    <meta name="description" content="Muhtasim Mahim, Digital Marketer, SEO Specialist, and Social Media Manager.">
     <title>Muhtasim Mahim - Digital Marketer</title>
     <style>
         body {
@@ -23,23 +22,29 @@
             padding: 40px 20px;
             max-width: 800px;
             margin: auto;
-        }
-        h1, h2 {
-            margin-bottom: 10px;
-        }
-        .about, .services, .contact {
             background-color: white;
-            margin-bottom: 20px;
-            padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px auto;
+        }
+        .contact-info a {
+            display: block;
+            margin: 10px 0;
+            color: #333;
+            text-decoration: none;
         }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 10px 0;
-            position: relative;
         }
     </style>
 </head>
@@ -49,23 +54,28 @@
         <p>Digital Marketer</p>
     </header>
 
-    <section class="about">
+    <section>
+        <img src="digital_pic.jpg" alt="Muhtasim Mahim" class="photo">
         <h2>About Me</h2>
-        <p>I am Muhtasim Mahim, a digital marketer specializing in social media marketing, Google Ads, and content creation.</p>
+        <p>I am Muhtasim Mahim, a digital marketer specializing in SEO, logo design, and social media management.</p>
     </section>
-
-    <section class="services">
-        <h2>My Services</h2>
-        <ul>
-            <li>Social Media Marketing</li>
-            <li>Google Ads Campaigns</li>
-            <li>Content Writing</li>
-        </ul>
-    </section>
-
-    <section class="contact">
+<section class="blog">
+    <h2>My Blog</h2>
+    <article>
+        <h3>The Future of Digital Marketing</h3>
+        <p class="date">Published on: May 25, 2026</p>
+        <p>In this blog post, I explore how digital marketing trends are evolving in 2026. From AI-driven campaigns to personalized content, the future is bright for digital marketers.</p>
+    </article>
+    <article>
+        <h3>SEO Tips for Beginners</h3>
+        <p class="date">Published on: May 20, 2026</p>
+        <p>If you're just starting with SEO, this post is for you. Learn the basics of keyword research, on-page optimization, and how to track your progress.</p>
+    </article>
+</section>
+    <section class="contact-info">
         <h2>Contact Me</h2>
-        <p>You can reach me at: <a href="mailto:muhtasim@example.com">muhtasim@example.com</a></p>
+        <a href="mailto:muhtasimmahi.m@gmail.com">muhtasimmahi.m@gmail.com</a>
+        <a href="https://www.linkedin.com/in/muhtasimmahim/" target="_blank">LinkedIn Profile</a>
     </section>
 
     <footer>
